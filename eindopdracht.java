@@ -8,5 +8,6 @@ public class eindopdracht {
             System.out.println(woorden[x]);
         }
         System.out.print("stewaio");
+        // Hollo Jordi
     }
 }
