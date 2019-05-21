@@ -1,5 +1,7 @@
 package DG2;
 
+import java.util.Scanner;
+
 public class eindopdracht {
     public static void main(String[] args){
         //Tim Bentum
@@ -7,5 +9,10 @@ public class eindopdracht {
         for(int x = 0; x < woorden.length; x++){
             System.out.println(woorden[x]);
         }
+
+        Scanner letter_vraag = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("Voor een letter in:");
+        String letter = letter_vraag.nextLine();
+        System.out.println(letter);
     }
 }
