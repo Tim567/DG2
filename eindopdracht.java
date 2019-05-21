@@ -9,10 +9,13 @@ public class eindopdracht {
         for(int x = 0; x < woorden.length; x++){
             System.out.println(woorden[x]);
         }
+        System.out.println(vraag_letter());
 
-        Scanner letter_vraag = new Scanner(System.in);  // Create a Scanner object
+    }
+    static private String vraag_letter(){
+        Scanner letter_vraag = new Scanner(System.in);
         System.out.println("Voor een letter in:");
         String letter = letter_vraag.nextLine();
-        System.out.println(letter);
+        return letter;
     }
 }
