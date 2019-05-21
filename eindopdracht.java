@@ -7,7 +7,5 @@ public class eindopdracht {
         for(int x = 0; x < woorden.length; x++){
             System.out.println(woorden[x]);
         }
-        System.out.print("stewaio");
-        // Hollo Jordi
     }
 }
